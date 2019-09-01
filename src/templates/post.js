@@ -15,7 +15,7 @@ const Post = ({ data }) => {
   const disqusConfiguration = {
       identifier: data.markdownRemark.id,
       title: post.title,
-      url: 'kos-blog.com/' + slugify(post.title)
+      url: 'https://5d6bbb6d020196000858a40f--adoring-minsky-c98b11.netlify.com/' + slugify(post.title)
   }
   return (
     <Layout>
